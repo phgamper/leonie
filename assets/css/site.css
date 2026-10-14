@@ -313,6 +313,7 @@ p { margin: 0 0 1rem; }
   font-weight: 700;
   line-height: 1;
 }
+.product-offer-price small { display: block; margin-top: 0.25rem; color: #6b6b6b; font-size: 0.75rem; font-weight: 400; }
 .product-offer-price span { margin-bottom: 0.25rem; color: #6b6b6b; font-size: 0.75rem; font-weight: 400; letter-spacing: 0.08em; text-transform: uppercase; }
 .product-offer-button {
   display: inline-block;
@@ -444,3 +445,4 @@ body:has(.legal:target) .home { display: none; }
 .cart__actions { display: flex; gap: 0.75rem; margin-top: 1.5rem; }
 .cart__actions .button { flex: 1; text-align: center; cursor: pointer; }
 .cart__order:disabled { opacity: 0.5; pointer-events: none; }
+.cart__shipping { margin: -0.25rem 0 0.75rem; text-align: right; font-size: 0.8rem; color: var(--muted); }

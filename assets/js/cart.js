@@ -49,7 +49,7 @@
       lines.push(i.qty + ' x ' + i.name + ' (' + chf(i.price) + ')');
       if (i.details) lines.push('   ' + i.details);
     });
-    lines.push('', 'Total: ' + chf(t.sum), '', 'Lieferadresse:', '',
+    lines.push('', 'Total: ' + chf(t.sum) + ' zzgl. Versandkosten', '', 'Lieferadresse:', '',
       'Name: ' + c.name,
       'Strasse: ' + c.street,
       'PLZ / Ort: ' + c.zip + ' ' + c.city,
