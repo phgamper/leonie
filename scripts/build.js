@@ -1,10 +1,12 @@
-// Renders content/*.md into <slug>/index.html using templates/page.html.
+// Builds index.html from templates/home.html plus content/*.md (legal pages,
+// shown via #slug), wrapped in templates/layout.html.
 const fs = require('fs');
 const path = require('path');
 const { marked } = require('marked');
 
 const root = path.join(__dirname, '..');
-const template = fs.readFileSync(path.join(root, 'templates', 'page.html'), 'utf8');
+const layout = fs.readFileSync(path.join(root, 'templates', 'layout.html'), 'utf8');
+const home = fs.readFileSync(path.join(root, 'templates', 'home.html'), 'utf8');
 const contentDir = path.join(root, 'content');
 
 function parse(source) {
@@ -18,19 +20,19 @@ function parse(source) {
   return { meta, body: match[2] };
 }
 
-const escapeHtml = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;');
-
-fs.readdirSync(contentDir)
+const legal = fs.readdirSync(contentDir)
   .filter((file) => file.endsWith('.md'))
-  .forEach((file) => {
+  .map((file) => {
     const slug = path.basename(file, '.md');
-    const { meta, body } = parse(fs.readFileSync(path.join(contentDir, file), 'utf8'));
-    const html = template
-      .replace(/{{slug}}/g, slug)
-      .replace(/{{title}}/g, escapeHtml(meta.title || slug))
-      .replace('{{content}}', () => marked.parse(body));
-    const outDir = path.join(root, slug);
-    fs.mkdirSync(outDir, { recursive: true });
-    fs.writeFileSync(path.join(outDir, 'index.html'), html);
-    console.log(`built ${slug}/index.html`);
-  });
+    const { body } = parse(fs.readFileSync(path.join(contentDir, file), 'utf8'));
+    return `<article class="legal" id="${slug}">\n${marked.parse(body)}</article>`;
+  })
+  .join('\n');
+
+const html = layout
+  .replace('{{title}}', 'Leonhart – Der ultimative Kickertisch')
+  .replace('{{description}}', 'Der ITSF-zertifizierte Leonhart Kickertisch – handgefertigt in Bayern, jetzt auch in der Schweiz erhältlich.')
+  .replace('{{content}}', () => home)
+  .replace('{{legal}}', () => legal);
+fs.writeFileSync(path.join(root, 'index.html'), html);
+console.log('built index.html');

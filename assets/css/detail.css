@@ -1,8 +1,0 @@
-/* If using background-image on the DIV, ensure it has dimensions */
-#detail-image {
-  background-size: cover;
-  background-position: center;
-  /* e.g.: */
-  /* aspect-ratio: 4 / 3; */
-  /* min-height: 360px; */
-}
