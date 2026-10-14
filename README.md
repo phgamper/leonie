@@ -1,4 +1,4 @@
-# leonhart.ch
+# leonie
 
 Plain static site: HTML, CSS and JavaScript only. No build step, no Node/npm, no frameworks.
 Serve the folder with any web server (e.g. `python3 -m http.server`); `products.json` and
