@@ -20,7 +20,7 @@
     <a class="site-header__logo" href="#top"><img src="assets/img/logo.png" alt="Leonhart – since 1949" width="256" height="62"></a>
     <nav class="site-nav" id="site-nav" aria-label="Hauptmenü">
       <a href="#top">Home</a>
-      <a href="#konfigurator">Zum Tisch</a>
+      <a href="#product-offer">Zum Tisch</a>
       <a href="zubehoer.html">Zubehör</a>
     </nav>
     <button class="cart-toggle" type="button" data-cart-open aria-label="Warenkorb öffnen">
@@ -43,7 +43,7 @@
       <h1>Der ultimative <strong>Kickertisch</strong></h1>
       <p class="lead">Der „ITSF official“-zertifizierte Kickertisch – made with ❤️ in Bavaria, jetzt auch in der Schweiz erhältlich!</p>
       <div class="hero__actions">
-        <a class="button" href="#konfigurator">Zum Tisch</a>
+        <a class="button" href="#product-offer">Zum Tisch</a>
         <a class="button button--outline" href="#explore">Jetzt entdecken</a>
       </div>
     </div>
@@ -246,7 +246,7 @@
     </div>
     <nav class="site-footer__nav" aria-label="Footer">
       <a href="#top">Home</a>
-      <a href="#konfigurator">Zum Tisch</a>
+      <a href="#product-offer">Zum Tisch</a>
       <a href="zubehoer.html">Zubehör</a>
       <a href="index.html#datenschutz">Datenschutz</a>
       <a href="index.html#impressum">Impressum</a>
@@ -265,11 +265,12 @@
     </div>
     <ul class="cart__items" data-cart-items></ul>
     <p class="cart__empty" data-cart-empty>Dein Warenkorb ist leer.</p>
-    <div class="cart__foot">
+    <div class="cart__foot" data-cart-foot>
       <p class="cart__sum"><span>Total</span><strong data-cart-sum>CHF 0.00</strong></p>
-      <p class="cart__note">Mit „Jetzt bestellen“ öffnet sich dein Mailprogramm mit einer fertigen Bestellung. Du musst die E-Mail nur noch absenden.</p>
-      <a class="button cart__order" data-cart-order href="mailto:info@leonhart.ch">Jetzt bestellen</a>
+      <p class="cart__note">Im nächsten Schritt gibst du deine Lieferadresse an. Danach öffnet sich dein Mailprogramm mit einer fertigen Bestellung.</p>
+      <button type="button" class="button cart__order" data-cart-checkout>Weiter zur Bestellung</button>
     </div>
+    <form class="cart__form" data-cart-form novalidate hidden></form>
   </aside>
 </div>
 </body>
