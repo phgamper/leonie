@@ -404,3 +404,28 @@ body:has(.legal:target) .home { display: none; }
   html { scroll-behavior: auto; }
   .js .reveal { opacity: 1; transform: none; transition: none; }
 }
+
+/* Zubehör */
+.filter { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 2rem; }
+.filter__button {
+  padding: 0.4rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: #fff;
+  color: var(--text);
+  font: inherit;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+.filter__button:hover, .filter__button.is-active { background: var(--green); border-color: var(--green); color: #fff; }
+.products {  display: grid; grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr)); gap: 1.5rem; }
+.product { display: flex; flex-direction: column; padding: 1rem; border: 1px solid var(--border); border-radius: var(--radius); background: #fff; }
+.product[hidden] { display: none; }
+.product__image { width: 100%; height: auto; aspect-ratio: 1; object-fit: contain; }
+.product__category { margin: 0.75rem 0 0.25rem; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--green); }
+.product__name { margin: 0 0 0.75rem; font-size: 1.05rem; color: var(--heading); }
+.product__option { display: block; margin-bottom: 0.5rem; font-size: 0.8rem; color: var(--muted); }
+.product__option select { display: block; width: 100%; margin-top: 0.15rem; padding: 0.4rem; border: 1px solid var(--border); border-radius: var(--radius); font: inherit; color: var(--text); background: #fff; }
+.product__price { margin: auto 0 0.75rem; padding-top: 0.5rem; font-size: 1.2rem; font-weight: 600; color: var(--heading); }
+.product__button { width: 100%; text-align: center; cursor: pointer; }
+.product__button:disabled { opacity: 0.5; cursor: not-allowed; }

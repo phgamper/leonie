@@ -3,21 +3,23 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{{title}}</title>
-<meta name="description" content="{{description}}">
+<title>Zubehör & Ersatzteile – Leonhart</title>
+<meta name="description" content="Zubehör und Ersatzteile für deinen Leonhart Kickertisch.">
 <link rel="icon" href="assets/img/favicon.png" type="image/png">
 <link rel="preload" href="assets/fonts/ibm-plex-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="assets/css/site.css">
 <script src="assets/js/cart.js" defer></script>
 <script src="assets/js/site.js" defer></script>
+<script src="assets/js/products.js" defer></script>
 </head>
 <body id="top">
 <header class="site-header">
   <div class="site-header__inner">
-    <a class="site-header__logo" href="#top"><img src="assets/img/logo.png" alt="Leonhart – since 1949" width="256" height="62"></a>
+    <a class="site-header__logo" href="index.html#top"><img src="assets/img/logo.png" alt="Leonhart – since 1949" width="256" height="62"></a>
     <nav class="site-nav" id="site-nav" aria-label="Hauptmenü">
-      <a href="#top">Home</a>
-      <a href="#konfigurator">Zum Tisch</a>
+      <a href="index.html#top">Home</a>
+      <a href="index.html#konfigurator">Zum Tisch</a>
+      <a href="zubehoer.html">Zubehör</a>
     </nav>
     <button class="cart-toggle" type="button" data-cart-open aria-label="Warenkorb öffnen">
       <span class="cart-toggle__total" data-cart-total>CHF 0.00</span>
@@ -32,22 +34,36 @@
 
 <main>
 <div class="home">
-{{content}}
+<section class="section">
+  <div class="container">
+    <div class="section__head">
+      <h1>Zubehör &amp; Ersatzteile</h1>
+      <p>Originalteile für deinen Leonhart-Tisch – direkt ab Lager lieferbar.</p>
+    </div>
+    <div class="filter" role="group" aria-label="Produktkategorien">
+    </div>
+    <div class="products">
+      <p class="products__status">Produkte werden geladen …</p>
+    </div>
+  </div>
+</section>
+
 </div>
-{{legal}}
+
 </main>
 
 <footer class="site-footer">
   <div class="site-footer__inner">
     <div class="site-footer__brand">
-      <a href="#top"><img src="assets/img/logo.png" alt="Leonhart – since 1949" width="256" height="62"></a>
+      <a href="index.html#top"><img src="assets/img/logo.png" alt="Leonhart – since 1949" width="256" height="62"></a>
     </div>
     <nav class="site-footer__nav" aria-label="Footer">
-      <a href="#top">Home</a>
-      <a href="#konfigurator">Zum Tisch</a>
-      <a href="#datenschutz">Datenschutz</a>
-      <a href="#impressum">Impressum</a>
-      <a href="#agb">AGB</a>
+      <a href="index.html#top">Home</a>
+      <a href="index.html#konfigurator">Zum Tisch</a>
+      <a href="zubehoer.html">Zubehör</a>
+      <a href="index.html#datenschutz">Datenschutz</a>
+      <a href="index.html#impressum">Impressum</a>
+      <a href="index.html#agb">AGB</a>
     </nav>
     <p class="site-footer__copy">© <span class="currentyear"></span> Leonhart.ch by Foos Sport GmbH. All Rights Reserved</p>
   </div>

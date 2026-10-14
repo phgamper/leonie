@@ -1,7 +1,3 @@
----
-title: Impressum
----
-
 ## Impressum
 
 **Foos Sport GmbH**  

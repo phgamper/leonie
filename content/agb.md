@@ -1,7 +1,3 @@
----
-title: Allgemeine Geschäftsbedingungen
----
-
 ## Allgemeine Geschäftsbedingungen (AGB)
 
 Diese AGB sind auf E-Commerce Schweiz ausgelegt und enthalten kundenfreundliche Problemlösungen, aber stark eingeschränkte Haftung für Produktqualität.

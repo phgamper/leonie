@@ -1,0 +1,613 @@
+[
+  {
+    "id": "leo-itsf-ball-official",
+    "name": "Leo ITSF-Ball “official”",
+    "image": "assets/img/products/itsf_ball_2021-1.jpg",
+    "price": 4,
+    "category": "Kickerbälle"
+  },
+  {
+    "id": "leo-player-kl-leo",
+    "name": "Leonhart Figur (Tournament)",
+    "image": "assets/img/products/player_leo_gruen.jpg",
+    "options": [
+      {
+        "name": "Farbe",
+        "key": "attribute_pa_farbe",
+        "values": [
+          {
+            "value": "blau",
+            "label": "Blau"
+          },
+          {
+            "value": "braun",
+            "label": "Braun"
+          },
+          {
+            "value": "gelb",
+            "label": "Gelb"
+          },
+          {
+            "value": "grau",
+            "label": "Grau"
+          },
+          {
+            "value": "gruen",
+            "label": "Grün"
+          },
+          {
+            "value": "orange",
+            "label": "Orange"
+          },
+          {
+            "value": "rot",
+            "label": "Rot"
+          },
+          {
+            "value": "schwarz",
+            "label": "Schwarz"
+          },
+          {
+            "value": "vanille",
+            "label": "Vanille"
+          },
+          {
+            "value": "weiss",
+            "label": "Weiß"
+          }
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "sku": "KL-420",
+        "price": 3.8,
+        "attributes": {
+          "attribute_pa_farbe": "gruen"
+        },
+        "image": "assets/img/products/player_leo_gruen.jpg"
+      },
+      {
+        "sku": "KL-420s",
+        "price": 3.8,
+        "attributes": {
+          "attribute_pa_farbe": "schwarz"
+        },
+        "image": "assets/img/products/player_leo_schwarz.jpg"
+      },
+      {
+        "sku": "KL-420w",
+        "price": 3.8,
+        "attributes": {
+          "attribute_pa_farbe": "weiss"
+        },
+        "image": "assets/img/products/player_leo_weiss.jpg"
+      },
+      {
+        "sku": "KL-420o",
+        "price": 3.8,
+        "attributes": {
+          "attribute_pa_farbe": "orange"
+        },
+        "image": "assets/img/products/player_leo_orange.jpg"
+      },
+      {
+        "sku": "KL-420r",
+        "price": 3.8,
+        "attributes": {
+          "attribute_pa_farbe": "rot"
+        },
+        "image": "assets/img/products/player_leo_rot.jpg"
+      },
+      {
+        "sku": "KL-420g",
+        "price": 3.8,
+        "attributes": {
+          "attribute_pa_farbe": "grau"
+        },
+        "image": "assets/img/products/player_leo_grau.jpg"
+      },
+      {
+        "sku": "KL-420y",
+        "price": 3.8,
+        "attributes": {
+          "attribute_pa_farbe": "gelb"
+        },
+        "image": "assets/img/products/player_leo_gelb.jpg"
+      },
+      {
+        "sku": "KL-420b",
+        "price": 3.8,
+        "attributes": {
+          "attribute_pa_farbe": "blau"
+        },
+        "image": "assets/img/products/player_leo_blau.jpg"
+      },
+      {
+        "sku": "KL-420elf",
+        "price": 3.8,
+        "attributes": {
+          "attribute_pa_farbe": "vanille"
+        },
+        "image": "assets/img/products/player_leo_schwarz.jpg"
+      },
+      {
+        "sku": "KL-420braun",
+        "price": 3.8,
+        "attributes": {
+          "attribute_pa_farbe": "braun"
+        },
+        "image": "assets/img/products/player_leo_schwarz.jpg"
+      }
+    ],
+    "price": 3.8,
+    "category": "Kickerfiguren",
+    "priceFrom": true
+  },
+  {
+    "id": "figurenschraube-inkl-mutter-fuer-leo_player-ttb",
+    "name": "Figurenschraube inkl. Mutter für leo_player / ttB",
+    "image": "assets/img/products/figurenschraube_soc_2021.jpg",
+    "price": 1.25,
+    "category": "Schrauben"
+  },
+  {
+    "id": "turnierstange-komplettsatz",
+    "name": "Turnierstange Komplettsatz",
+    "image": "assets/img/products/tischkicker_stange_satz-1.jpg",
+    "options": [
+      {
+        "name": "Torvariante",
+        "key": "attribute_torvariante",
+        "values": [
+          {
+            "value": "Tor (hohes Tor)",
+            "label": "Tor (hohes Tor)"
+          },
+          {
+            "value": "Tor (niedriges Tor)",
+            "label": "Tor (niedriges Tor)"
+          }
+        ]
+      },
+      {
+        "name": "Lager",
+        "key": "attribute_lager",
+        "values": [
+          {
+            "value": "Leichtlauflager",
+            "label": "Leichtlauflager"
+          },
+          {
+            "value": "Wechsellager",
+            "label": "Wechsellager"
+          }
+        ]
+      },
+      {
+        "name": "Griffe montiert",
+        "key": "attribute_griffe-montiert",
+        "values": [
+          {
+            "value": "Ja",
+            "label": "Ja"
+          },
+          {
+            "value": "Nein",
+            "label": "Nein"
+          }
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "sku": "403MFES-Pg",
+        "price": 239,
+        "attributes": {
+          "attribute_torvariante": "Tor (hohes Tor)",
+          "attribute_lager": "Leichtlauflager",
+          "attribute_griffe-montiert": "Ja"
+        },
+        "image": "assets/img/products/tischkicker_stange_satz-1.jpg"
+      },
+      {
+        "sku": "W403pg",
+        "price": 239,
+        "attributes": {
+          "attribute_torvariante": "Tor (hohes Tor)",
+          "attribute_lager": "Wechsellager",
+          "attribute_griffe-montiert": "Ja"
+        },
+        "image": "assets/img/products/tischkicker_stange_satz-1.jpg"
+      },
+      {
+        "sku": "403MFES-P",
+        "price": 199.95,
+        "attributes": {
+          "attribute_torvariante": "Tor (hohes Tor)",
+          "attribute_lager": "Leichtlauflager",
+          "attribute_griffe-montiert": "Nein"
+        },
+        "image": "assets/img/products/tischkicker_stange_satz-1.jpg"
+      },
+      {
+        "sku": "W403MFES-P",
+        "price": 199.95,
+        "attributes": {
+          "attribute_torvariante": "Tor (hohes Tor)",
+          "attribute_lager": "Wechsellager",
+          "attribute_griffe-montiert": "Nein"
+        },
+        "image": "assets/img/products/tischkicker_stange_satz-1.jpg"
+      },
+      {
+        "sku": "403MFES-Sg",
+        "price": 239,
+        "attributes": {
+          "attribute_torvariante": "Tor (niedriges Tor)",
+          "attribute_lager": "Leichtlauflager",
+          "attribute_griffe-montiert": "Ja"
+        },
+        "image": "assets/img/products/tischkicker_stange_satz-1.jpg"
+      },
+      {
+        "sku": "W403sg",
+        "price": 239,
+        "attributes": {
+          "attribute_torvariante": "Tor (niedriges Tor)",
+          "attribute_lager": "Wechsellager",
+          "attribute_griffe-montiert": "Ja"
+        },
+        "image": "assets/img/products/tischkicker_stange_satz-1.jpg"
+      },
+      {
+        "sku": "403MFES-S",
+        "price": 199.95,
+        "attributes": {
+          "attribute_torvariante": "Tor (niedriges Tor)",
+          "attribute_lager": "Leichtlauflager",
+          "attribute_griffe-montiert": "Nein"
+        },
+        "image": "assets/img/products/tischkicker_stange_satz-1.jpg"
+      },
+      {
+        "sku": "W403MFES-S",
+        "price": 199.95,
+        "attributes": {
+          "attribute_torvariante": "Tor (niedriges Tor)",
+          "attribute_lager": "Wechsellager",
+          "attribute_griffe-montiert": "Nein"
+        },
+        "image": "assets/img/products/tischkicker_stange_satz-1.jpg"
+      }
+    ],
+    "price": 199.95,
+    "category": "Kickerstangen",
+    "priceFrom": true
+  },
+  {
+    "id": "turnierstange",
+    "name": "Turnierstange",
+    "image": "assets/img/products/tischkicker_stange.jpg",
+    "options": [
+      {
+        "name": "Position",
+        "key": "attribute_position",
+        "values": [
+          {
+            "value": "Tor (hohes Tor)",
+            "label": "Tor (hohes Tor)"
+          },
+          {
+            "value": "Tor (niedriges Tor)",
+            "label": "Tor (niedriges Tor)"
+          },
+          {
+            "value": "Verteidiger",
+            "label": "Verteidiger"
+          },
+          {
+            "value": "Mittelfeld",
+            "label": "Mittelfeld"
+          },
+          {
+            "value": "Sturm",
+            "label": "Sturm"
+          }
+        ]
+      },
+      {
+        "name": "Lager",
+        "key": "attribute_lager",
+        "values": [
+          {
+            "value": "Leichtlauflager",
+            "label": "Leichtlauflager"
+          },
+          {
+            "value": "Wechsellager",
+            "label": "Wechsellager"
+          }
+        ]
+      },
+      {
+        "name": "Griff",
+        "key": "attribute_griff",
+        "values": [
+          {
+            "value": "Ja",
+            "label": "Ja"
+          },
+          {
+            "value": "Nein",
+            "label": "Nein"
+          }
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "sku": "403tg",
+        "price": 29.85,
+        "attributes": {
+          "attribute_position": "Tor (hohes Tor)",
+          "attribute_lager": "Leichtlauflager",
+          "attribute_griff": "Ja"
+        },
+        "image": "assets/img/products/tischkicker_stange.jpg"
+      },
+      {
+        "sku": "403t",
+        "price": 24.9,
+        "attributes": {
+          "attribute_position": "Tor (hohes Tor)",
+          "attribute_lager": "Leichtlauflager",
+          "attribute_griff": "Nein"
+        },
+        "image": "assets/img/products/tischkicker_stange.jpg"
+      },
+      {
+        "sku": "W403tg",
+        "price": 29.85,
+        "attributes": {
+          "attribute_position": "Tor (hohes Tor)",
+          "attribute_lager": "Wechsellager",
+          "attribute_griff": "Ja"
+        },
+        "image": "assets/img/products/tischkicker_stange.jpg"
+      },
+      {
+        "sku": "W403t",
+        "price": 24.9,
+        "attributes": {
+          "attribute_position": "Tor (hohes Tor)",
+          "attribute_lager": "Wechsellager",
+          "attribute_griff": "Nein"
+        },
+        "image": "assets/img/products/tischkicker_stange.jpg"
+      },
+      {
+        "sku": "403tsg",
+        "price": 29.85,
+        "attributes": {
+          "attribute_position": "Tor (niedriges Tor)",
+          "attribute_lager": "Leichtlauflager",
+          "attribute_griff": "Ja"
+        },
+        "image": "assets/img/products/tischkicker_stange.jpg"
+      },
+      {
+        "sku": "403ts",
+        "price": 24.9,
+        "attributes": {
+          "attribute_position": "Tor (niedriges Tor)",
+          "attribute_lager": "Leichtlauflager",
+          "attribute_griff": "Nein"
+        },
+        "image": "assets/img/products/tischkicker_stange.jpg"
+      },
+      {
+        "sku": "W403tsg",
+        "price": 29.85,
+        "attributes": {
+          "attribute_position": "Tor (niedriges Tor)",
+          "attribute_lager": "Wechsellager",
+          "attribute_griff": "Ja"
+        },
+        "image": "assets/img/products/tischkicker_stange.jpg"
+      },
+      {
+        "sku": "W403ts",
+        "price": 24.9,
+        "attributes": {
+          "attribute_position": "Tor (niedriges Tor)",
+          "attribute_lager": "Wechsellager",
+          "attribute_griff": "Nein"
+        },
+        "image": "assets/img/products/tischkicker_stange.jpg"
+      },
+      {
+        "sku": "4032g",
+        "price": 29.85,
+        "attributes": {
+          "attribute_position": "Verteidiger",
+          "attribute_lager": "Leichtlauflager",
+          "attribute_griff": "Ja"
+        },
+        "image": "assets/img/products/tischkicker_stange.jpg"
+      },
+      {
+        "sku": "4032",
+        "price": 24.9,
+        "attributes": {
+          "attribute_position": "Verteidiger",
+          "attribute_lager": "Leichtlauflager",
+          "attribute_griff": "Nein"
+        },
+        "image": "assets/img/products/tischkicker_stange.jpg"
+      },
+      {
+        "sku": "W4032g",
+        "price": 29.85,
+        "attributes": {
+          "attribute_position": "Verteidiger",
+          "attribute_lager": "Wechsellager",
+          "attribute_griff": "Ja"
+        },
+        "image": "assets/img/products/tischkicker_stange.jpg"
+      },
+      {
+        "sku": "W4032",
+        "price": 24.9,
+        "attributes": {
+          "attribute_position": "Verteidiger",
+          "attribute_lager": "Wechsellager",
+          "attribute_griff": "Nein"
+        },
+        "image": "assets/img/products/tischkicker_stange.jpg"
+      },
+      {
+        "sku": "4035g",
+        "price": 29.85,
+        "attributes": {
+          "attribute_position": "Mittelfeld",
+          "attribute_lager": "Leichtlauflager",
+          "attribute_griff": "Ja"
+        },
+        "image": "assets/img/products/tischkicker_stange.jpg"
+      },
+      {
+        "sku": "4035",
+        "price": 24.9,
+        "attributes": {
+          "attribute_position": "Mittelfeld",
+          "attribute_lager": "Leichtlauflager",
+          "attribute_griff": "Nein"
+        },
+        "image": "assets/img/products/tischkicker_stange.jpg"
+      },
+      {
+        "sku": "W4035g",
+        "price": 29.85,
+        "attributes": {
+          "attribute_position": "Mittelfeld",
+          "attribute_lager": "Wechsellager",
+          "attribute_griff": "Ja"
+        },
+        "image": "assets/img/products/tischkicker_stange.jpg"
+      },
+      {
+        "sku": "W4035",
+        "price": 2490,
+        "attributes": {
+          "attribute_position": "Mittelfeld",
+          "attribute_lager": "Wechsellager",
+          "attribute_griff": "Nein"
+        },
+        "image": "assets/img/products/tischkicker_stange.jpg"
+      },
+      {
+        "sku": "4033g",
+        "price": 2985,
+        "attributes": {
+          "attribute_position": "Sturm",
+          "attribute_lager": "Leichtlauflager",
+          "attribute_griff": "Ja"
+        },
+        "image": "assets/img/products/tischkicker_stange.jpg"
+      },
+      {
+        "sku": "4033",
+        "price": 2490,
+        "attributes": {
+          "attribute_position": "Sturm",
+          "attribute_lager": "Leichtlauflager",
+          "attribute_griff": "Nein"
+        },
+        "image": "assets/img/products/tischkicker_stange.jpg"
+      },
+      {
+        "sku": "W4033g",
+        "price": 2985,
+        "attributes": {
+          "attribute_position": "Sturm",
+          "attribute_lager": "Wechsellager",
+          "attribute_griff": "Ja"
+        },
+        "image": "assets/img/products/tischkicker_stange.jpg"
+      },
+      {
+        "sku": "W4033",
+        "price": 2490,
+        "attributes": {
+          "attribute_position": "Sturm",
+          "attribute_lager": "Wechsellager",
+          "attribute_griff": "Nein"
+        },
+        "image": "assets/img/products/tischkicker_stange.jpg"
+      }
+    ],
+    "price": 24.9,
+    "category": "Kickerstangen",
+    "priceFrom": true
+  },
+  {
+    "id": "gummipuffer-pro",
+    "name": "Gummipuffer „Pro“",
+    "image": "assets/img/products/puffer_pro.jpg",
+    "price": 5,
+    "category": "Tisch-Ersatzteile"
+  },
+  {
+    "id": "griff-leo",
+    "name": "Griff „Leo“",
+    "image": "assets/img/products/griff_dtfb2021.jpg",
+    "price": 5.2,
+    "category": "Tisch-Ersatzteile"
+  },
+  {
+    "id": "balleinwurfschale-ohne-fuehrung",
+    "name": "Balleinwurfschale ohne Führung",
+    "image": "assets/img/products/balleinwurf_tournament.jpg",
+    "price": 2.6,
+    "category": "Tisch-Ersatzteile"
+  },
+  {
+    "id": "innenrosette",
+    "name": "Innenrosette",
+    "image": "assets/img/products/innenrosette.jpg",
+    "price": 0.6,
+    "category": "Tisch-Ersatzteile"
+  },
+  {
+    "id": "schraube-fuer-tischbein",
+    "name": "Schraube für Tischbein",
+    "image": "assets/img/products/beinschraube.jpg",
+    "price": 1.1,
+    "category": "Schrauben"
+  },
+  {
+    "id": "leostrongarena-tackle-light",
+    "name": "Leonhart Lampe – Typ: Strong Arena Tackle",
+    "image": "assets/img/products/tackle_light.jpg",
+    "price": 185,
+    "category": "Beleuchtung"
+  },
+  {
+    "id": "leoarena",
+    "name": "Leonhart Lampe – Typ: Arena",
+    "image": "assets/img/products/arena.jpg",
+    "price": 220,
+    "gallery": [
+      "assets/img/products/arena_2.jpg"
+    ],
+    "category": "Beleuchtung"
+  },
+  {
+    "id": "schraubfuss",
+    "name": "Schraubfuss",
+    "image": "assets/img/products/fuss.png",
+    "price": 13.8,
+    "category": "Tisch-Ersatzteile"
+  }
+]

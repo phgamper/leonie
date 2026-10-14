@@ -1,7 +1,3 @@
----
-title: Datenschutzerklärung
----
-
 ## Datenschutzerklärung (Schweiz – revDSG)
 
 Diese Datenschutzerklärung ist kompatibel mit dem revidierten Schweizer Datenschutzgesetz (revDSG), gültig seit 01.09.2023.
