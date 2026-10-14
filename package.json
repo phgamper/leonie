@@ -1,0 +1,13 @@
+{
+  "name": "leonhart.ch",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build.js"
+  },
+  "devDependencies": {
+    "marked": "^15.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,94 @@
+#product-offer {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(18rem, 0.85fr);
+  gap: clamp(1.5rem, 4vw, 4rem);
+  align-items: center;
+  padding: clamp(1.5rem, 4vw, 3.5rem);
+  background: #fafafa;
+  color: #111;
+}
+.product-offer-gallery { display: block; }
+.product-offer-gallery figure { margin: 0; }
+.product-offer-gallery img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+.product-offer-main-image img { aspect-ratio: 1.32; }
+.product-offer-eyebrow {
+  margin: 0 0 0.75rem;
+  color: #209529;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+.product-offer-copy h2 {
+  margin: 0;
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  line-height: 1.05;
+}
+.product-offer-copy > p:not(.product-offer-eyebrow):not(.product-offer-price) {
+  max-width: 35rem;
+  margin: 1.25rem 0 0;
+  color: #4a4a4a;
+}
+.product-offer-specifications {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.75rem 0;
+}
+.product-offer-specifications div {
+  padding-top: 0.75rem;
+  border-top: 1px solid #d6d6d6;
+}
+.product-offer-specifications dt {
+  color: #6b6b6b;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+.product-offer-specifications dd {
+  margin: 0.25rem 0 0;
+  font-weight: 700;
+}
+.product-offer-price {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding-top: 0.75rem;
+  border-top: 1px solid #d6d6d6;
+  color: #111;
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 700;
+  line-height: 1;
+}
+.product-offer-price span {
+  margin-bottom: 0.25rem;
+  color: #6b6b6b;
+  font-size: 0.75rem;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+@media (max-width: 767px) {
+  #product-offer { grid-template-columns: 1fr; }
+  .product-offer-specifications { grid-template-columns: 1fr; }
+}
+.product-offer-button {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.9rem 2rem;
+  border-radius: 6px;
+  background: #111;
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+.product-offer-button:hover,
+.product-offer-button:focus {
+  background: #209529;
+  color: #fff;
+}
